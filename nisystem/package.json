@@ -40,8 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://namoo9009.github.io/nisystem",
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
-  }
+  "homepage": "https://namoo9009.github.io/nisystem"
 }
