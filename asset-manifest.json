@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nisystem/static/css/main.0351f8dd.css",
+    "main.js": "/nisystem/static/js/main.40837b7a.js",
+    "static/js/787.d4c15b7a.chunk.js": "/nisystem/static/js/787.d4c15b7a.chunk.js",
+    "index.html": "/nisystem/index.html",
+    "main.0351f8dd.css.map": "/nisystem/static/css/main.0351f8dd.css.map",
+    "main.40837b7a.js.map": "/nisystem/static/js/main.40837b7a.js.map",
+    "787.d4c15b7a.chunk.js.map": "/nisystem/static/js/787.d4c15b7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0351f8dd.css",
+    "static/js/main.40837b7a.js"
+  ]
+}
