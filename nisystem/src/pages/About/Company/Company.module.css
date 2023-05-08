@@ -1,15 +1,11 @@
 .about_company {
-    width: 100%;
-    height: 320px;
-    background-color: #B4B4B4;
+  width: 100%;
 }
-.about_company h1 {
-    padding: 100px 0 16px;
-    font-size: 50px;
-    font-weight: bold;
-    color: #fff;
+.outline_section {
+  padding: 100px 0 120px;
 }
-.about_company p {
-    font-size: 18px;
-    color: #fff;
+.mission_box {
+    margin-top: 60px;
+    padding: 70px 0 90px;
+    background-color: #6C6C6C;
 }
