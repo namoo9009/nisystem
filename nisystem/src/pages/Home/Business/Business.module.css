@@ -1,0 +1,42 @@
+.home_business {
+  padding: 120px 0 160px;
+}
+.home_business ul {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.home_business ul li {
+  display: flex;
+  align-items: center;
+}
+.home_business ul li:nth-child(even) div {
+  order: 1;
+}
+.description {
+  width: 50%;
+}
+.description > div {
+  width: 66.7%;
+  margin: 0 auto;
+}
+.description h2 {
+  font-size: 38px;
+  font-weight: bold;
+}
+.description p {
+  padding: 30px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.description a {
+  display: inline-flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.image {
+  width: 50%;
+  background-color: #505050;
+}

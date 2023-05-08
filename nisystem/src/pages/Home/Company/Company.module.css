@@ -1,0 +1,21 @@
+.home_company {
+    padding: 120px 0 160px;
+    background-color: #B4B4B4;
+}
+.home_company h1 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #fff;
+}
+.home_company p {
+    padding: 30px 0 40px;
+    font-size: 16px;
+    color: #fff;
+}
+.home_company a {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: #fff;
+    font-weight: bold;
+}

@@ -1,0 +1,12 @@
+body {
+  color: #333;
+}
+a.selected {
+  font-weight: bold;
+  color: #333;
+}
+.inner {
+  margin: 0 auto;
+  max-width: 1285px;
+  width: 90%;
+}

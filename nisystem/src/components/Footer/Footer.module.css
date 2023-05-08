@@ -1,0 +1,40 @@
+.footer {
+  padding: 50px 0 70px;
+  background-color: #000000;
+}
+.terms {
+  display: flex;
+  gap: 20px;
+}
+.terms a {
+  font-size: 14px;
+  color: #fff;
+}
+.company_box {
+  padding: 30px 0;
+  display: flex;
+  gap: 30px;
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.6;
+}
+.company_box li {
+  position: relative;
+}
+.company_box li:not(:last-of-type):after {
+  position: absolute;
+  top: 50%;
+  right: -15px;
+  transform: translateY(-50%);
+  content: "";
+  display: block;
+  width: 1px;
+  height: 13px;
+  background-color: #fff;
+  opacity: 0.6;
+}
+.copyrite {
+  font-size: 13px;
+  color: #fff;
+  opacity: 0.6;
+}
