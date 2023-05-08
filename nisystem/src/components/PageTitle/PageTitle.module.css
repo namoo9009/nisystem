@@ -1,0 +1,15 @@
+.page_title {
+  position: relative;
+  font-size: 38px;
+  font-weight: bold;
+}
+.page_title::after {
+  position: absolute;
+  left: 0;
+  bottom: -24px;
+  display: block;
+  content: "";
+  width: 40px;
+  height: 3px;
+  background-color: #0079cc;
+}

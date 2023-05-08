@@ -12,19 +12,17 @@ import AboutLocation from "./pages/About/Location/Location";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutCompany />}>
-          <Route path="company" element={<AboutCompany />}/>
-          <Route path="message" element={<AboutMessage />}/>
-          <Route path="history" element={<AboutHistory />}/>
-          <Route path="client" element={<AboutClient />}/>
-          <Route path="vendor" element={<AboutVendor />}/>
-          <Route path="location" element={<AboutLocation />}/>
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<AboutCompany />}>
+        <Route path="company" element={<AboutCompany />} />
+        <Route path="message" element={<AboutMessage />} />
+        <Route path="history" element={<AboutHistory />} />
+        <Route path="client" element={<AboutClient />} />
+        <Route path="vendor" element={<AboutVendor />} />
+        <Route path="location" element={<AboutLocation />} />
+      </Route>
+    </Routes>
   );
 }
 
