@@ -30,18 +30,18 @@ export default function Header() {
           </div>
           <div className={styles.list_1dep}>
             <NavLink
-              to="/company"
+              to="/about"
               className={({ isActive }) => (isActive ? "selected" : "")}
             >
               회사소개
             </NavLink>
             <div className={styles.list_2dep}>
-              <Link to="/">엔아이시스템 소개</Link>
-              <Link to="/">인사말</Link>
-              <Link to="/">연혁</Link>
-              <Link to="/">고객사</Link>
-              <Link to="/">협력사</Link>
-              <Link to="/">오시는 길</Link>
+              <Link to="/about/company">엔아이시스템 소개</Link>
+              <Link to="/about/message">인사말</Link>
+              <Link to="/about/history">연혁</Link>
+              <Link to="/about/client">고객사</Link>
+              <Link to="/about/vendor">협력사</Link>
+              <Link to="/about/location">오시는 길</Link>
             </div>
           </div>
           <div className={styles.list_1dep}>
